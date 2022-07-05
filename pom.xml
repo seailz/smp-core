@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.seailz</groupId>
-    <artifactId>SpigotPluginTemplate</artifactId>
+    <artifactId>SMPCore</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>SpigotPluginTemplate</name>
+    <name>SMPCore</name>
 
-    <description>Plugin Template (Change this!)</description>
+    <description>A core plugin for your SMP server!</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -50,7 +50,7 @@
                     <relocations>
                         <relocation>
                             <pattern>games.negative.framework</pattern>
-                            <shadedPattern>com.seailz.spigotplugintemplate.core.framework</shadedPattern>
+                            <shadedPattern>com.seailz.smpcore.core.framework</shadedPattern>
                         </relocation>
                     </relocations>
                 </configuration>
@@ -83,7 +83,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.8.8-R0.1-SNAPSHOT</version>
+            <version>1.18.2-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>

@@ -1,7 +1,9 @@
 package com.seailz.smpcore;
 
+import com.seailz.smpcore.commands.CommandSmp;
 import com.seailz.smpcore.core.Locale;
 import com.seailz.smpcore.core.Logger;
+import com.seailz.smpcore.listeners.PlayerQuit;
 import games.negative.framework.BasePlugin;
 import lombok.Getter;
 import lombok.Setter;
@@ -35,12 +37,12 @@ public final class SmpCorePlugin extends BasePlugin {
         switch (type) {
             case COMMAND:
                 registerCommands(
-                        // Insert commands
+                        new CommandSmp()
                 );
                 break;
             case LISTENER:
                 registerListeners(
-                        // Register Listeners
+                        new PlayerQuit()
                 );
         }
     }
