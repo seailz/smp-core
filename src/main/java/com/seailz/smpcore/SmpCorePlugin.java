@@ -1,16 +1,16 @@
-package club.icegames.spigotplugintemplate;
+package com.seailz.smpcore;
 
-import club.icegames.spigotplugintemplate.core.Locale;
-import club.icegames.spigotplugintemplate.core.Logger;
+import com.seailz.smpcore.core.Locale;
+import com.seailz.smpcore.core.Logger;
 import games.negative.framework.BasePlugin;
 import lombok.Getter;
 import lombok.Setter;
 
-public final class PluginTemplate extends BasePlugin {
+public final class SmpCorePlugin extends BasePlugin {
 
     @Getter
     @Setter
-    public static PluginTemplate instance;
+    public static SmpCorePlugin instance;
 
     @Override
     public void onEnable() {

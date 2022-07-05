@@ -1,7 +1,6 @@
-name: SpigotPluginTemplate
+name: SMPCore
 version: ${project.version}
-main: com.seailz.spigotplugintemplate.SpigotPluginTemplate
-api-version: 1.18
+main: com.seailz.smpcore.SmpCorePlugin
 authors: [ Seailz ]
-description: Plugin Tempalte (Change this!)
-website: www.seailzcom
+description: Create multiple worlds on one server.
+website: www.seailz.com
